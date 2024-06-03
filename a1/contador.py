@@ -1,5 +1,5 @@
 class Contador:
-    def _init_(self, valor = 200):
+    def __init__(self, valor = 200):
         self.__valor = valor
    
     def incrementar(self, valor):
